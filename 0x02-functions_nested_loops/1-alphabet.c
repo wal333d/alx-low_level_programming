@@ -9,12 +9,15 @@
  *
  * Return: 0
  */
+
+
 void print_alphabet(void)
 {
-	char letter;
-
-	for (letter = 'a'; letter <= 'z'; letter++)
-		_putchar(letter);
-
-	_putchar('\n');
+char atoz = 'a';
+while (atoz <= 'z')
+{
+_putchar(atoz);
+atoz++;
+}
+_putchar('\n');
 }
